@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(138,100,70,0.5)40%,rgba(78,15,184,0.7)70%), url(doga.jpg);
+    background-position:center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    background: #212121;
+    opacity: 0.7;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 72px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: arial;
+    float: left;
+    padding-left: 27px;
+    padding-top: 12px;
+    margin-top: 4px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 72px;
+}
+ul{
+    float:left;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+ul li {
+    list-style: none;
+    margin-left: 52px;
+    margin-top: 28px;
+    font-size: 14px;
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: arial;
+    font-weight: bold;
+    transition: 1s ease-in-out;
+}
+ul li a:hover {
+    color:orange;
+}
+.Arama{
+    width: 350px;
+    float: left;
+    margin-left: 250px;
+}
+.Ara{
+    font-family: arial;
+    width: 195px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid orange;
+    margin-top: 14px;
+    color: white;
+    border-right: none;
+    font-size: 14px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    width: 100px;
+    height: 42px;
+    background: orange;
+    margin-top: 13px;
+    color: white;
+    font-size: 14px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    transition: 2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #212121;
+
+}
+.btn:focus{
+    outline: none;
+}
+.Ara:focus{
+    outline: none;
+}
+.içerik{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.içerik h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 27px;
+    margin-top: 8%;
+    letter-spacing: 2px;
+}
+.içerik .par{
+    padding-left: 27px;
+    padding-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.içerik .katilin{
+    width: 155px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 27px;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s ease;
+}
+.içerik .katilin a{
+    text-decoration: none;
+    color: rgb(14, 13, 13);
+    transition: 3s ease;
+}
+.katilin:hover{
+    background-color: white;
+}
+.içerik span{
+    color: orange;
+    font-size: 68px;
+}
+.Form{
+    width:300px;
+    height: 380px;
+    position:absolute;
+    top:200px;
+    left:750px;
+    position: absolute;
+    color: white;
+    transform: translate(55%, -5%);
+    background: linear-gradient(to top,rgba(138,100,70,0.5)40%,rgba(78,15,184,0.7)70%);
+    border-radius: 10px;
+    padding: 20px;
+}
+.Form h2{
+    width:220px;
+    font-family:Arial;
+    font-size:24px;
+    color:orange;
+    background:white;
+    text-align:center;
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 30px;
+}
+.Form input{
+    width: 240px;
+    height: 37px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: arial;
+    }
+    .Form input:focus{
+        outline: none;
+    }
+    ::placeholder{
+        color: white;
+        font-family: arial;
+    }
+    .Giriş{
+        width: 240px;
+        height: 40px;
+        background: orange;
+        border: none;
+        margin-top: 30px;
+        font-size: 17px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: white;
+        transition: 2s ease;
+        
+    }
+    .Giriş:hover{
+        background: yellow;
+        }
+        .Giriş a{
+            font-weight: bold;
+            text-decoration: none;
+            width: black;
+        }
+        .tar{
+            color:orange;
+            margin-left: 40px;
+            margin-top: 30px;
+        }
+        
